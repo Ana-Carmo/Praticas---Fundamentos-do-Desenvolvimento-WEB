@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Prática 07 - exercício 01</title>
+		<link rel="stylesheet" type="text/css" href="pratica07exercicio01.css">
+		<script type="text/javascript" src="pratica07exercicio01.js"></script>
+	</head>
+
+	<body>
+		<table cellpadding="15px">
+
+			<thead>
+				<th>Nome do Aluno</th>
+				<th>Nota P1</th>
+				<th>Nota P2</th>
+				<th>Nota T1</th>
+				<th>Nota Total</th>
+				<th>Faltas</th>
+			</thead>
+
+			<tr onclick="resultado (notaTotal1.innerText, frequencia1.innerText)">
+				<td id="nome">Ana</td>
+				<td>29</td>
+				<td>17</td>
+				<td>27</td>
+				<td id="notaTotal1">73</td>
+				<td id="frequencia1">0</td>
+			</tr>
+
+			<tr onclick="resultado (notaTotal2.innerText, frequencia2.innerText)">
+				<td id="nome">Gisele</td>
+				<td>28</td>
+				<td>18</td>
+				<td>24</td>
+				<td id="notaTotal2">70</td>
+				<td id="frequencia2">3</td>
+			</tr>
+
+			<tr onclick="resultado (notaTotal3.innerText, frequencia3.innerText)">
+				<td id="nome">Jane</td>
+				<td>26</td>
+				<td>20</td>
+				<td>24</td>
+				<td id="notaTotal3">70</td>
+				<td id="frequencia3">1</td>
+			</tr>
+
+			<tr onclick="resultado (notaTotal4.innerText, frequencia4.innerText)">
+				<td id="nome">Jorge</td>
+				<td>25</td>
+				<td>19</td>
+				<td>29</td>
+				<td id="notaTotal4">73</td>
+				<td id="frequencia4">0</td>
+			</tr>
+
+			<tr onclick="resultado (notaTotal5.innerText, frequencia5.innerText)">
+				<td id="nome">Marina</td>
+				<td>30</td>
+				<td>16</td>
+				<td>27</td>
+				<td id="notaTotal5">73</td>
+				<td id="frequencia5">1</td>
+			</tr>
+
+			<tr>
+				<td id="media">Média</td>
+				<td id="mediatotal">71,8</td>
+			</tr>
+
+		</table>
+	</body>
+
+</html>

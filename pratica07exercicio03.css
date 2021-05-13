@@ -1,0 +1,50 @@
+table {
+	border-collapse: collapse;
+	height:500px;
+	width: 1000px;
+}
+
+thead {
+	font-size: 1rem;
+}
+
+th {
+	font-family: sans-serif;
+	background-color: #0F62CC;
+	color: #FFFFFF;
+	vertical-align: middle;
+	font-size: 25px;
+	text-align: center;
+	border: solid 1px;
+	border-color: #FFFFFF;
+}
+
+td {
+	font-family: sans-serif;
+	background-color: #A6DBC9;
+	vertical-align: middle;
+	border: solid 1px;
+	border-color: #FFFFFF;
+	padding-left: 40px;
+}
+
+tr:hover {
+    background-color: black !important;
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+}
+
+#webb {
+	vertical-align: top;
+	background-color: #A6DBC9;
+	color: #131809;
+	font-size: 25px;
+}
+
+#logicaProg {
+	vertical-align: top;
+	background-color: #F2BF28;
+	color:#131809;
+	font-size: 25px;
+}

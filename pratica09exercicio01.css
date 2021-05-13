@@ -1,0 +1,62 @@
+
+div{
+text-indent: 20px;
+}
+
+div#cabecalho {
+background-color: white;
+width: 1470px;
+height: 100px;
+margin: 5px;
+border: 5px solid red;
+}
+
+div#menu {
+background-color: white;
+width: 1470px;
+height: 100px;
+margin: 5px;
+border: 5px solid blue;
+}
+
+.info {
+background-color: white;
+width: 165px;
+margin: 5px;
+border: 5px solid green;
+float: left;
+display: block;
+}
+
+.textos {
+position: relative;
+background-color: white;
+float: left;
+display: none;
+overflow: auto;
+text-align: justify;
+}
+
+.conteudo {
+position: relative;
+float: left;
+width: 170px;
+z-index: 100;
+padding: 6px;
+}
+
+div#rodape {
+background-color: white;
+width: 1470px;
+height: 100px;
+margin: 5px;
+border: 5px solid orange;
+clear: both;
+}
+
+img {
+width: 165px;
+height: 100px;
+float: left;
+display: block;
+}

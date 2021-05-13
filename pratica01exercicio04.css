@@ -1,0 +1,11 @@
+/* Isso é um comentário em CSS! */
+h1 {
+    color: purple;
+    font-size: 4rem;
+    font-family: Verdana;
+}
+span {
+    color: yellow;
+    font-size: 10px;
+    font-family: arial;
+}

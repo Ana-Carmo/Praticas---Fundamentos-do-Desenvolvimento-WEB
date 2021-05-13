@@ -1,0 +1,38 @@
+html, body {
+  font: 16px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+main {
+  width: 20rem;
+  height: 18rem;
+  margin: 1rem auto;
+}
+
+section {
+  width: 19rem;
+  height: 14.5rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+
+figure {
+  width: 18.8rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+
+img {
+    width: 18.8rem;
+    height: 12rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+#cabecalho {
+    text-align: center;
+    padding: 0.5rem;
+}

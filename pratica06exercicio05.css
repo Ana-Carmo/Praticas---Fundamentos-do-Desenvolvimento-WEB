@@ -1,0 +1,21 @@
+body{
+    background-color: #e6e2d3;
+    color: #3e4444;
+    font-family: Arial;
+	text-align: center;
+}
+
+.input{
+    background-color: #eca1a6;
+    color: white;
+    border: none;
+    
+}
+
+#button{
+  color: #ffffff;
+  background: #d64161;
+  padding: 10px 20px 10px 20px;
+    border-radius: 0px;
+    border: none;
+}

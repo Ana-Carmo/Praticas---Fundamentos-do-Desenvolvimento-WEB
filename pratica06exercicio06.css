@@ -1,0 +1,31 @@
+h1{
+	color: Indigo;
+	font-size: 2.7rem;
+	text-align: center;
+}
+
+body{
+    background-color: #e6e2d3;
+    color: #3e4444;
+    font-family: Arial;
+	text-align: center;
+}
+
+#raio{
+	padding: 15x 32px;
+	background-color: azure;
+	border-color: Indigo;
+	border-radius: 2px;
+	text-align: center;
+	border: 3px;
+	font-size: 16px;
+}
+
+#button{
+  color: #ffffff;
+  font-size: 20px;
+  background: #d64161;
+  padding: 10px 20px 10px 20px;
+    border-radius: 0px;
+    border: none;
+}

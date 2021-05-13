@@ -1,0 +1,29 @@
+html {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+padding: 10px;
+margin: 10px;
+height: 300px;
+overflow: auto;
+}
+
+.floating-box {
+float: left;
+width: 200px;
+border: 2px solid #a3a3a3;
+font-size: 20px; 
+}
+
+img {
+height: 130px;
+width: 200px;
+}
+
+.itemmenu {
+height: 100px;
+width: 150px;
+background-color: red;
+}
+      

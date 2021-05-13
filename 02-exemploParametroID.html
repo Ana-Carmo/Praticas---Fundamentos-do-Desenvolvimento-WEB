@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset ="UTF-8">
+		<title>Exemplo</title>
+        <script>            
+            function parImpar (valor){
+                valor = parseInt (valor);
+                if (valor % 2 == 0)
+                    resultado.innerHTML = "O valor " + valor + " é par!";
+                else
+                    resultado.innerHTML = "O valor " + valor + " é ímpar!";
+            }
+        </script>
+	</head>
+    <body>
+        Informe um número: <input type = "number" id="num">
+   	    <button onclick = "parImpar (num.value)">Ok</button>
+        <div id="resultado"></div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.entrada {
+font-size: 1rem;
+font-family: Arial;
+height: 100%;
+text-align: center;
+color: black;
+}
+
+h1 {
+ color: orange;
+ font-size: 3rem;
+ text-align: center;
+}
+
+#numero {
+ background-color: white;
+ height: 0,5rem;
+ padding: 0,5rem;
+ margin-bottom: 2rem;
+}
+
+#resultado {
+ background-color: white;
+ color: green;
+ font-weight: bold;
+ text-align: center;
+}
+
+input {text-align: center;}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Prática 07 - Exercício 03</title>
+		<link rel="stylesheet" type="text/css" href="pratica07exercicio03.css">
+		<script type="text/javascript" src="pratica07exercicio03.js"></script>
+	</head>
+
+	<body>
+		<table>
+			<thead>
+				<th>Disciplina</th>
+				<th>Aluno</th>
+				<th>P1</th>
+				<th>P2</th>
+				<th>Total</th>
+			</thead>
+
+			<tr onclick="media (notaTotal1.innerText, mediaWeb.innerText)">
+				<td id="webb" rowspan="5">Web</td>
+				<td>José da Silva</td>
+				<td>30</td>
+				<td>10</td>
+				<td id="notaTotal1">40</td>
+			</tr>
+
+			<tr onclick="media (notaTotal2.innerText, mediaWeb.innerText)">
+				<td>Maria da Silva</td>
+				<td>25</td>
+				<td>7</td>
+				<td id="notaTotal2">32</td>
+			</tr>
+
+			<tr onclick="media (notaFinal3.innerText, mediaWeb.innerText)">
+				<td>Ronildo Graves</td>
+				<td>12</td>
+				<td>3</td>
+				<td id="notaFinal3">15</td>
+			</tr>
+
+			<tr onclick="media (notaFinal4.innerText, mediaWeb.innerText)">
+				<td>Joselita Santos</td>
+				<td>15</td>
+				<td>8</td>
+				<td id="notaFinal4">23</td>
+			</tr>
+
+			<tr>
+				<td id="mediaTurma">Média Web</td>
+				<td id="mediaWeb" colspan="3">27,5</td>
+			</tr>
+
+			<tr onclick="media (notaFinal5.innerText, mediaLogica.innerText)">
+				<td id="logicaProg" rowspan="6">Lógica de Programação</td>
+				<td>José da Silva</td>
+				<td>20</td>
+				<td>9</td>
+				<td id="notaFinal5">29</td>
+			</tr>
+
+			<tr onclick="media (notaFinal6.innerText, mediaLogica.innerText)">
+				<td>Maria da Silva</td>
+				<td colspan="2">32</td>
+				<td id="notaFinal6">32</td>
+			</tr>
+
+			<tr onclick="media (notaFinal7.innerText, mediaLogica.innerText)">
+				<td>Ronildo Graves</td>
+				<td>18</td>
+				<td>5</td>
+				<td id="notaFinal7">23</td>
+			</tr>
+
+			<tr onclick="media (notaFinal8.innerText, mediaLogica.innerText)">
+				<td>Ronildo Campos</td>
+				<td colspan="2">35</td>
+				<td id="notaFinal8">35</td>
+			</tr>
+
+			<tr onclick="media (notaTotal9.innerText, mediaLogica.innerText)">
+				<td>Janaína Murtosa</td>
+				<td>30</td>
+				<td>10</td>
+				<td id="notaTotal9">40</td>
+			</tr>
+
+			<tr>
+				<td id="mediaTurma">Média Lógica e Programação</td>
+				<td id="mediaLogica" colspan="3">31,8</td>
+			</tr>
+
+		</table>
+	</body>
+
+</html>
